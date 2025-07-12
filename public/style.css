@@ -15,19 +15,13 @@ body {
   border: 8px solid #e0e0e0;
   border-top: 8px solid #3388ff;
   border-radius: 50%;
-  animation: spin 1s linear infinite;
+  animation: spinner-spin 0.9s linear infinite;
+  /* Ensure hardware acceleration */
+  will-change: transform;
 }
-@keyframes spin {
+@keyframes spinner-spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
-}
-
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    font-family: Arial, sans-serif;
 }
 
 .floating-logo {

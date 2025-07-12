@@ -115,31 +115,63 @@ window.onload = function() {
                 if (!response.ok) throw new Error('Upload failed');
                 let text = await response.text();
                 console.log('Raw response text:', text);
-                // Trim until the first '{'
-                const firstBrace = text.indexOf('{');
-                if (firstBrace > 0) text = text.slice(firstBrace);
+
                 let playersArr = [];
                 try {
+                    // Trim until the first '{'
+                    const firstBrace = text.indexOf('{');
+                    if (firstBrace > 0) text = text.slice(firstBrace);
                     const obj = JSON.parse(text);
                     console.log('Parsed response object:', obj);
                     otherPlayers.length = 0;
+                    // First pass: parse all valid players
+                    const emptyUUIDs = [];
+                    const parsedPlayers = [];
                     for (const [uuid, playerStr] of Object.entries(obj)) {
                         if (typeof playerStr === 'string' && playerStr.trim()) {
                             try {
                                 const p = JSON.parse(playerStr);
                                 console.log('Parsed player from UUID', uuid, ':', p);
                                 if (typeof p.latitude === 'number' && typeof p.longitude === 'number' && typeof p.name === 'string') {
-                                    otherPlayers.push({
+                                    // Add 0.5 miles of random noise
+                                    const noiseAngle = Math.random() * 2 * Math.PI;
+                                    const noiseMiles = 0.5 * Math.random();
+                                    const dLat = (noiseMiles * Math.cos(noiseAngle)) / 69;
+                                    const dLng = (noiseMiles * Math.sin(noiseAngle)) / (69 * Math.cos(p.latitude * Math.PI / 180));
+                                    parsedPlayers.push({
                                         name: p.name,
-                                        lat: p.latitude,
-                                        lng: p.longitude
+                                        lat: p.latitude + dLat,
+                                        lng: p.longitude + dLng
                                     });
                                 }
                             } catch (e) {
                                 console.warn('Could not parse player JSON for UUID', uuid, playerStr, e);
                             }
+                        } else {
+                            emptyUUIDs.push(uuid);
                         }
                     }
+                    // Add parsed players
+                    otherPlayers.length = 0;
+                    parsedPlayers.forEach(p => otherPlayers.push({...p}));
+                    // For each empty string, synthesize a player
+                    emptyUUIDs.forEach((uuid, i) => {
+                        if (parsedPlayers.length === 0) return; // nothing to copy
+                        const base = parsedPlayers[i % parsedPlayers.length];
+                        // Add 2-3 mile random variation
+                        const miles = 2 + Math.random();
+                        const angle = Math.random() * 2 * Math.PI;
+                        // Approximate 1 mile in lat/lng
+                        const dLat = (miles * Math.cos(angle)) / 69; // 1 deg lat ~ 69 miles
+                        const dLng = (miles * Math.sin(angle)) / (69 * Math.cos(base.lat * Math.PI / 180));
+                        const synth = {
+                            name: "gpt-3.5",
+                            lat: base.lat + dLat,
+                            lng: base.lng + dLng
+                        };
+                        otherPlayers.push(synth);
+                        console.log('Synthesized player for empty response:', synth);
+                    });
                     console.log('Updated otherPlayers array:', otherPlayers);
                 } catch (e) {
                     alert('Could not parse player data from response.');
