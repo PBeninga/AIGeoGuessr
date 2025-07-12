@@ -34,6 +34,16 @@ function haversineMiles(lat1, lng1, lat2, lng2) {
 window.onload = function() {
     // Centered on San Francisco by default
     map = L.map('map').setView([37.7749, -122.4194], 12);
+    // Load cities JSON file
+    fetch('cities.json')
+        .then(response => response.json())
+        .then(data => {
+            // Randomly pick one from the first 20
+            const randomIndex = Math.floor(Math.random() * 20);
+            const randomCity = data[randomIndex];
+            console.log(`Random city: ${randomCity.cityLabel}`);
+            document.querySelector("#AIImage").src = `imgs/real/${randomCity.local_location}`;
+        });
 
     // OpenStreetMap raster tile layer (open/free)
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
