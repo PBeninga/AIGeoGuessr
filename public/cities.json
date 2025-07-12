@@ -65,7 +65,7 @@
     "population": 1608139,
     "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Phoenix%2C%20Arizona.JPG",
     "location": "Point(-112.073888888 33.448333333)",
-    "local_location": "7.jpg",
+    "local_location": "7.JPG",
     "longitude": -112.073888888,
     "latitude": 33.448333333
   },
@@ -85,7 +85,7 @@
     "population": 1472654,
     "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yankee%20Stadium%20001.JPG",
     "location": "Point(-73.873333333 40.846666666)",
-    "local_location": "9.jpg",
+    "local_location": "9.JPG",
     "longitude": -73.873333333,
     "latitude": 40.846666666
   },
@@ -135,7 +135,7 @@
     "population": 961855,
     "image": "http://commons.wikimedia.org/wiki/Special:FilePath/AustinSkylineLouNeffPoint-2010-03-29-b.JPG",
     "location": "Point(-97.733333333 30.3)",
-    "local_location": "14.jpg",
+    "local_location": "14.JPG",
     "longitude": -97.733333333,
     "latitude": 30.3
   },
