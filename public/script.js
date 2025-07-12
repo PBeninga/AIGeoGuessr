@@ -15,7 +15,7 @@ const otherPlayers = [
 ];
 
 // The actual correct coordinate for this round
-const correctCoord = { lat: 37.8000, lng: -122.4500 }; // Example: near Presidio
+let correctCoord = { lat: 37.8000, lng: -122.4500 }; // Example: near Presidio
 
 
 // Haversine formula to calculate distance in miles
@@ -43,6 +43,7 @@ window.onload = function() {
             const randomCity = data[randomIndex];
             console.log(`Random city: ${randomCity.cityLabel}`);
             document.querySelector("#AIImage").src = `imgs/real/${randomCity.local_location}`;
+            correctCoord = { lat: randomCity.latitude, lng: randomCity.longitude };
         });
 
     // OpenStreetMap raster tile layer (open/free)
