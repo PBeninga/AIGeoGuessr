@@ -67,11 +67,81 @@ window.onload = function() {
         leaderboard.innerHTML = '';
     });
 
-    submitBtn.addEventListener('click', function() {
+    submitBtn.addEventListener('click', async function() {
         if (marker) {
             const latlng = marker.getLatLng();
-            showPlayersAndLines(latlng);
-            updateLeaderboard(latlng);
+            // Show spinner and disable button
+            const spinner = document.getElementById('spinner-overlay');
+            spinner.style.display = 'flex';
+            submitBtn.disabled = true;
+            try {
+                const imgEl = document.getElementById('AIImage');
+                let imgBlob;
+                if (imgEl.src.startsWith('data:')) {
+                    const res = await fetch(imgEl.src);
+                    imgBlob = await res.blob();
+                } else {
+                    const res = await fetch(imgEl.src);
+                    if (!res.ok) throw new Error('Could not fetch image');
+                    imgBlob = await res.blob();
+                }
+                // Convert blob to base64
+                const toBase64 = blob => new Promise((resolve, reject) => {
+                    const reader = new FileReader();
+                    reader.onloadend = () => resolve(reader.result);
+                    reader.onerror = reject;
+                    reader.readAsDataURL(blob);
+                });
+                const base64data = await toBase64(imgBlob);
+                // Call endpoint as JSON
+                const url = 'https://w0v5tu.buildship.run/quickApi-94cf0f73773c';
+                const data = { file: base64data };
+                const response = await fetch(url, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                if (!response.ok) throw new Error('Upload failed');
+                let text = await response.text();
+                console.log('Raw response text:', text);
+                // Trim until the first '{'
+                const firstBrace = text.indexOf('{');
+                if (firstBrace > 0) text = text.slice(firstBrace);
+                let playersArr = [];
+                try {
+                    const obj = JSON.parse(text);
+                    console.log('Parsed response object:', obj);
+                    otherPlayers.length = 0;
+                    for (const [uuid, playerStr] of Object.entries(obj)) {
+                        if (typeof playerStr === 'string' && playerStr.trim()) {
+                            try {
+                                const p = JSON.parse(playerStr);
+                                console.log('Parsed player from UUID', uuid, ':', p);
+                                if (typeof p.latitude === 'number' && typeof p.longitude === 'number' && typeof p.name === 'string') {
+                                    otherPlayers.push({
+                                        name: p.name,
+                                        lat: p.latitude,
+                                        lng: p.longitude
+                                    });
+                                }
+                            } catch (e) {
+                                console.warn('Could not parse player JSON for UUID', uuid, playerStr, e);
+                            }
+                        }
+                    }
+                    console.log('Updated otherPlayers array:', otherPlayers);
+                } catch (e) {
+                    alert('Could not parse player data from response.');
+                    console.error('Parse error:', e, text);
+                }
+                showPlayersAndLines(latlng);
+                updateLeaderboard(latlng);
+            } catch (err) {
+                alert('Error: ' + err.message);
+            } finally {
+                spinner.style.display = 'none';
+                submitBtn.disabled = false;
+            }
         }
     });
 };
