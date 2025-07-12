@@ -9,20 +9,26 @@ body {
   align-items: center;
   justify-content: center;
 }
+/* Style for the spinner */
 .spinner {
-  width: 64px;
-  height: 64px;
-  border: 8px solid #e0e0e0;
-  border-top: 8px solid #3388ff;
-  border-radius: 50%;
-  animation: spinner-spin 0.9s linear infinite;
-  /* Ensure hardware acceleration */
-  will-change: transform;
-}
-@keyframes spinner-spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #FF3D00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
 
 .floating-logo {
     position: absolute;

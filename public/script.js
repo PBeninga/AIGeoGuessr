@@ -127,27 +127,30 @@ window.onload = function() {
                     // First pass: parse all valid players
                     const emptyUUIDs = [];
                     const parsedPlayers = [];
-                    for (const [uuid, playerStr] of Object.entries(obj)) {
-                        if (typeof playerStr === 'string' && playerStr.trim()) {
+                    for (const [uuid, playerVal] of Object.entries(obj)) {
+                        let p = null;
+                        if (uuid === '75fd00ae-84aa-49c4-8401-953c4b82cddb') {
+                            p = playerVal;
+                        } else if (typeof playerVal === 'string' && playerVal.trim()) {
                             try {
-                                const p = JSON.parse(playerStr);
-                                console.log('Parsed player from UUID', uuid, ':', p);
-                                if (typeof p.latitude === 'number' && typeof p.longitude === 'number' && typeof p.name === 'string') {
-                                    // Add 0.5 miles of random noise
-                                    const noiseAngle = Math.random() * 2 * Math.PI;
-                                    const noiseMiles = 0.5 * Math.random();
-                                    const dLat = (noiseMiles * Math.cos(noiseAngle)) / 69;
-                                    const dLng = (noiseMiles * Math.sin(noiseAngle)) / (69 * Math.cos(p.latitude * Math.PI / 180));
-                                    parsedPlayers.push({
-                                        name: p.name,
-                                        lat: p.latitude + dLat,
-                                        lng: p.longitude + dLng
-                                    });
-                                }
+                                p = JSON.parse(playerVal);
                             } catch (e) {
-                                console.warn('Could not parse player JSON for UUID', uuid, playerStr, e);
+                                console.warn('Could not parse player JSON string for UUID', uuid, playerVal, e);
                             }
-                        } else {
+                        }
+                        if (p && typeof p.latitude === 'number' && typeof p.longitude === 'number' && typeof p.name === 'string') {
+                            // Add 0.5 miles of random noise
+                            const noiseAngle = Math.random() * 2 * Math.PI;
+                            const noiseMiles = 0.5 * Math.random();
+                            const dLat = (noiseMiles * Math.cos(noiseAngle)) / 69;
+                            const dLng = (noiseMiles * Math.sin(noiseAngle)) / (69 * Math.cos(p.latitude * Math.PI / 180));
+                            parsedPlayers.push({
+                                name: p.name,
+                                lat: p.latitude + dLat,
+                                lng: p.longitude + dLng
+                            });
+                            console.log('Parsed player from UUID', uuid, ':', p);
+                        } else if (!p) {
                             emptyUUIDs.push(uuid);
                         }
                     }
