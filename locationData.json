@@ -1,0 +1,86 @@
+[
+{
+    "city": "http://www.wikidata.org/entity/Q62",
+    "cityLabel": "San Francisco",
+    "population": 873965,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/San%20Francisco%20from%20the%20Marin%20Headlands%20in%20March%202019.jpg",
+    "location": "Point(-122.419444444 37.775)"
+    },
+    {
+      "city": "http://www.wikidata.org/entity/Q60",
+      "cityLabel": "New York City",
+      "population": 8804190,
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/NYC%20Downtown%20Manhattan%20Skyline%20seen%20from%20Paulus%20Hook%202019-12-20%20IMG%207347%20FRD%20%28cropped%29.jpg",
+      "location": "Point(-74.006111111 40.712777777)"
+    },
+    {
+      "city": "http://www.wikidata.org/entity/Q65",
+      "cityLabel": "Los Angeles",
+      "population": 3898747,
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Los%20Angeles%20with%20Mount%20Baldy.jpg",
+      "location": "Point(-118.24368 34.05223)"
+    },
+    {
+      "city": "http://www.wikidata.org/entity/Q1297",
+      "cityLabel": "Chicago",
+      "population": 2746388,
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2010-02-19%203000x2000%20chicago%20skyline.jpg",
+      "location": "Point(-87.627777777 41.881944444)"
+    },
+    {
+      "city": "http://www.wikidata.org/entity/Q16555",
+      "cityLabel": "Houston",
+      "population": 2304580,
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Houston%20montage.jpg",
+      "location": "Point(-95.383055555 29.762777777)"
+    },
+    {
+      "city": "http://www.wikidata.org/entity/Q1345",
+      "cityLabel": "Philadelphia",
+      "population": 1603797,
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Philadelphia%20skyline%20from%20South%20Street%20Bridge%20January%202020%20%28rotate%202%20degrees%20perspective%20correction%20crop%204-1%29.jpg",
+      "location": "Point(-75.163611111 39.952777777)"
+    },
+    {
+      "city": "http://www.wikidata.org/entity/Q975",
+      "cityLabel": "San Antonio",
+      "population": 1434625,
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SA%20Montage%20Nima.png",
+      "location": "Point(-98.493888888 29.425)"
+    },
+    {
+      "city": "http://www.wikidata.org/entity/Q16552",
+      "cityLabel": "San Diego",
+      "population": 1386932,
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/San%20Diego%20skyline%2018%20%28cropped%29.jpg",
+      "location": "Point(-117.1625 32.715)"
+    },
+    {
+      "city": "http://www.wikidata.org/entity/Q5083",
+      "cityLabel": "Seattle",
+      "population": 737015,
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Seattle%20aerial%202%2C%20May%202023.png",
+      "location": "Point(-122.33 47.605)"
+    },
+    {
+      "city": "http://www.wikidata.org/entity/Q16554",
+      "cityLabel": "Denver",
+      "population": 715522,
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2006-03-26%20Denver%20Skyline%20I-25%20Speer.jpg",
+      "location": "Point(-104.984722222 39.739166666)"
+    },
+    {
+      "city": "http://www.wikidata.org/entity/Q61",
+      "cityLabel": "Washington, D.C.",
+      "population": 689545,
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20White%20House%20and%20downtown%2C%20Washington%2C%20D.C%20LCCN2010630891.jpg",
+      "location": "Point(-77.036666666 38.895)"
+    },
+    {
+      "city": "http://www.wikidata.org/entity/Q23197",
+      "cityLabel": "Nashville",
+      "population": 689447,
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nashville%20day.jpg",
+      "location": "Point(-86.774444444 36.162222222)"
+    }
+]
