@@ -38,8 +38,15 @@ window.onload = function() {
     fetch('cities.json')
         .then(response => response.json())
         .then(data => {
-            // Randomly pick one from the first 20
-            const randomIndex = Math.floor(Math.random() * 20);
+            // Use 'id' parameter from URL if present, else default to 19
+            const urlParams = new URLSearchParams(window.location.search);
+            let randomIndex = Math.floor(Math.random() * 20);
+            if (urlParams.has('id')) {
+                const idx = parseInt(urlParams.get('id'), 10);
+                if (!isNaN(idx) && idx >= 0 && idx < data.length) {
+                    randomIndex = idx;
+                }
+            }
             const randomCity = data[randomIndex];
             console.log(`Random city: ${randomCity.cityLabel}`);
             document.querySelector("#AIImage").src = `imgs/real/${randomCity.local_location}`;
