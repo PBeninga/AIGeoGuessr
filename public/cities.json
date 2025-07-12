@@ -1,0 +1,1002 @@
+[
+  {
+    "city": "http://www.wikidata.org/entity/Q60",
+    "cityLabel": "New York City",
+    "population": 8804190,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/NYC%20Downtown%20Manhattan%20Skyline%20seen%20from%20Paulus%20Hook%202019-12-20%20IMG%207347%20FRD%20%28cropped%29.jpg",
+    "location": "Point(-74.006111111 40.712777777)",
+    "local_location": "1.jpg",
+    "longitude": -74.006111111,
+    "latitude": 40.712777777
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q65",
+    "cityLabel": "Los Angeles",
+    "population": 3898747,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Los%20Angeles%20with%20Mount%20Baldy.jpg",
+    "location": "Point(-118.24368 34.05223)",
+    "local_location": "2.jpg",
+    "longitude": -118.24368,
+    "latitude": 34.05223
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q1297",
+    "cityLabel": "Chicago",
+    "population": 2746388,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2010-02-19%203000x2000%20chicago%20skyline.jpg",
+    "location": "Point(-87.627777777 41.881944444)",
+    "local_location": "3.jpg",
+    "longitude": -87.627777777,
+    "latitude": 41.881944444
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q18424",
+    "cityLabel": "Queens",
+    "population": 2405464,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Queens%20Montage%202012%201.png",
+    "location": "Point(-73.917777777 40.704166666)",
+    "local_location": "4.png",
+    "longitude": -73.917777777,
+    "latitude": 40.704166666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q16555",
+    "cityLabel": "Houston",
+    "population": 2304580,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Houston%20montage.jpg",
+    "location": "Point(-95.383055555 29.762777777)",
+    "local_location": "5.jpg",
+    "longitude": -95.383055555,
+    "latitude": 29.762777777
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q11299",
+    "cityLabel": "Manhattan",
+    "population": 1694251,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Above%20Gotham.jpg",
+    "location": "Point(-73.994166666 40.728333333)",
+    "local_location": "6.jpg",
+    "longitude": -73.994166666,
+    "latitude": 40.728333333
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q16556",
+    "cityLabel": "Phoenix",
+    "population": 1608139,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Phoenix%2C%20Arizona.JPG",
+    "location": "Point(-112.073888888 33.448333333)",
+    "local_location": "7.jpg",
+    "longitude": -112.073888888,
+    "latitude": 33.448333333
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q1345",
+    "cityLabel": "Philadelphia",
+    "population": 1603797,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Philadelphia%20skyline%20from%20South%20Street%20Bridge%20January%202020%20%28rotate%202%20degrees%20perspective%20correction%20crop%204-1%29.jpg",
+    "location": "Point(-75.163611111 39.952777777)",
+    "local_location": "8.jpg",
+    "longitude": -75.163611111,
+    "latitude": 39.952777777
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q18426",
+    "cityLabel": "The Bronx",
+    "population": 1472654,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yankee%20Stadium%20001.JPG",
+    "location": "Point(-73.873333333 40.846666666)",
+    "local_location": "9.jpg",
+    "longitude": -73.873333333,
+    "latitude": 40.846666666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q975",
+    "cityLabel": "San Antonio",
+    "population": 1434625,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SA%20Montage%20Nima.png",
+    "location": "Point(-98.493888888 29.425)",
+    "local_location": "10.png",
+    "longitude": -98.493888888,
+    "latitude": 29.425
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q16552",
+    "cityLabel": "San Diego",
+    "population": 1386932,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/San%20Diego%20skyline%2018%20%28cropped%29.jpg",
+    "location": "Point(-117.1625 32.715)",
+    "local_location": "11.jpg",
+    "longitude": -117.1625,
+    "latitude": 32.715
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q16557",
+    "cityLabel": "Dallas",
+    "population": 1304379,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dallas%20Skyline%20with%20Arts%20District.jpg",
+    "location": "Point(-96.808888888 32.779166666)",
+    "local_location": "12.jpg",
+    "longitude": -96.808888888,
+    "latitude": 32.779166666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q16553",
+    "cityLabel": "San Jose",
+    "population": 1013240,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SanJose%20Infobox%20Pic%20Montage.jpg",
+    "location": "Point(-121.872777777 37.304166666)",
+    "local_location": "13.jpg",
+    "longitude": -121.872777777,
+    "latitude": 37.304166666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q16559",
+    "cityLabel": "Austin",
+    "population": 961855,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/AustinSkylineLouNeffPoint-2010-03-29-b.JPG",
+    "location": "Point(-97.733333333 30.3)",
+    "local_location": "14.jpg",
+    "longitude": -97.733333333,
+    "latitude": 30.3
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q16568",
+    "cityLabel": "Jacksonville",
+    "population": 949611,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Image-Jacksonville%20Skyline%20Panorama%201.jpg",
+    "location": "Point(-81.65 30.316666666)",
+    "local_location": "15.jpg",
+    "longitude": -81.65,
+    "latitude": 30.316666666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q16558",
+    "cityLabel": "Fort Worth",
+    "population": 918915,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fort%20Worth%20June%202016%2068%20%28skyline%29.jpg",
+    "location": "Point(-97.3325 32.756388888)",
+    "local_location": "16.jpg",
+    "longitude": -97.3325,
+    "latitude": 32.756388888
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q16567",
+    "cityLabel": "Columbus",
+    "population": 905748,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Montage%20Columbus%201.jpg",
+    "location": "Point(-83.000555555 39.962222222)",
+    "local_location": "17.jpg",
+    "longitude": -83.000555555,
+    "latitude": 39.962222222
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q6346",
+    "cityLabel": "Indianapolis",
+    "population": 887642,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Downtown%20Indianapolis.jpg",
+    "location": "Point(-86.158055555 39.768611111)",
+    "local_location": "18.jpg",
+    "longitude": -86.158055555,
+    "latitude": 39.768611111
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q16565",
+    "cityLabel": "Charlotte",
+    "population": 874579,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Charlotte%20collage.jpg",
+    "location": "Point(-80.843333333 35.226944444)",
+    "local_location": "19.jpg",
+    "longitude": -80.843333333,
+    "latitude": 35.226944444
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q62",
+    "cityLabel": "San Francisco",
+    "population": 873965,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/San%20Francisco%20from%20the%20Marin%20Headlands%20in%20March%202019.jpg",
+    "location": "Point(-122.419444444 37.775)",
+    "local_location": "20.jpg",
+    "longitude": -122.419444444,
+    "latitude": 37.775
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q5083",
+    "cityLabel": "Seattle",
+    "population": 737015,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Seattle%20aerial%202%2C%20May%202023.png",
+    "location": "Point(-122.33 47.605)",
+    "local_location": "21.png",
+    "longitude": -122.33,
+    "latitude": 47.605
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q16554",
+    "cityLabel": "Denver",
+    "population": 715522,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2006-03-26%20Denver%20Skyline%20I-25%20Speer.jpg",
+    "location": "Point(-104.984722222 39.739166666)",
+    "local_location": "22.jpg",
+    "longitude": -104.984722222,
+    "latitude": 39.739166666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q61",
+    "cityLabel": "Washington, D.C.",
+    "population": 689545,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20White%20House%20and%20downtown%2C%20Washington%2C%20D.C%20LCCN2010630891.jpg",
+    "location": "Point(-77.036666666 38.895)",
+    "local_location": "23.jpg",
+    "longitude": -77.036666666,
+    "latitude": 38.895
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q23197",
+    "cityLabel": "Nashville",
+    "population": 689447,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nashville%20day.jpg",
+    "location": "Point(-86.774444444 36.162222222)",
+    "local_location": "24.jpg",
+    "longitude": -86.774444444,
+    "latitude": 36.162222222
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q34863",
+    "cityLabel": "Oklahoma City",
+    "population": 681054,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oklahoma%20City%20montage.png",
+    "location": "Point(-97.535277777 35.482222222)",
+    "local_location": "25.png",
+    "longitude": -97.535277777,
+    "latitude": 35.482222222
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q16562",
+    "cityLabel": "El Paso",
+    "population": 678815,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/El%20Paso%20Skyline.jpg",
+    "location": "Point(-106.488611111 31.759166666)",
+    "local_location": "26.jpg",
+    "longitude": -106.488611111,
+    "latitude": 31.759166666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q100",
+    "cityLabel": "Boston",
+    "population": 675647,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Boston%20Financial%20District%20skyline.jpg",
+    "location": "Point(-71.057777777 42.360277777)",
+    "local_location": "27.jpg",
+    "longitude": -71.057777777,
+    "latitude": 42.360277777
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q6106",
+    "cityLabel": "Portland",
+    "population": 652503,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portland%2C%20Oregon%20Collage.jpg",
+    "location": "Point(-122.666666666 45.516666666)",
+    "local_location": "28.jpg",
+    "longitude": -122.666666666,
+    "latitude": 45.516666666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q23768",
+    "cityLabel": "Las Vegas",
+    "population": 641903,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Downtown%20Las%20Vegas%20from%20Stratosphere%203.jpg",
+    "location": "Point(-115.148611111 36.167222222)",
+    "local_location": "29.jpg",
+    "longitude": -115.148611111,
+    "latitude": 36.167222222
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q12439",
+    "cityLabel": "Detroit",
+    "population": 639111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Detroit%20montage%202020.jpg",
+    "location": "Point(-83.0475 42.331666666)",
+    "local_location": "30.jpg",
+    "longitude": -83.0475,
+    "latitude": 42.331666666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q16563",
+    "cityLabel": "Memphis",
+    "population": 633104,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Memphis%20skyline%20from%20the%20air.jpg",
+    "location": "Point(-89.971111111 35.1175)",
+    "local_location": "31.jpg",
+    "longitude": -89.971111111,
+    "latitude": 35.1175
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q5092",
+    "cityLabel": "Baltimore",
+    "population": 585708,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bmoreharbor.JPG",
+    "location": "Point(-76.615 39.286388888)",
+    "local_location": "32.jpg",
+    "longitude": -76.615,
+    "latitude": 39.286388888
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q37836",
+    "cityLabel": "Milwaukee",
+    "population": 577222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dji%20fly%2020241201%20160430%200031%201733092392756%20photo.jpg",
+    "location": "Point(-87.95 43.05)",
+    "local_location": "33.jpg",
+    "longitude": -87.95,
+    "latitude": 43.05
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q34804",
+    "cityLabel": "Albuquerque",
+    "population": 564559,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Albuquerque%20Infobox%20Photo.png",
+    "location": "Point(-106.650277777 35.084444444)",
+    "local_location": "34.png",
+    "longitude": -106.650277777,
+    "latitude": 35.084444444
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q18575",
+    "cityLabel": "Tucson",
+    "population": 542629,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CatalinasAndTucsonAZ.jpg",
+    "location": "Point(-110.926388888 32.221666666)",
+    "local_location": "35.jpg",
+    "longitude": -110.926388888,
+    "latitude": 32.221666666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q43301",
+    "cityLabel": "Fresno",
+    "population": 542107,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Downtown%20Fresno%20Night.png",
+    "location": "Point(-119.792222222 36.781666666)",
+    "local_location": "36.png",
+    "longitude": -119.792222222,
+    "latitude": 36.781666666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q18013",
+    "cityLabel": "Sacramento",
+    "population": 524943,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sacramento%20Riverfront.jpg",
+    "location": "Point(-121.486111111 38.575277777)",
+    "local_location": "37.jpg",
+    "longitude": -121.486111111,
+    "latitude": 38.575277777
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q41819",
+    "cityLabel": "Kansas City",
+    "population": 508090,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kansas%20City%20-%20Downtown%20-%20panoramio%20%2815%29.jpg",
+    "location": "Point(-94.583333333 39.05)",
+    "local_location": "38.jpg",
+    "longitude": -94.583333333,
+    "latitude": 39.05
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49261",
+    "cityLabel": "Mesa",
+    "population": 504258,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Downtown%20Mesa%20Arizona.jpg",
+    "location": "Point(-111.831388888 33.415)",
+    "local_location": "39.jpg",
+    "longitude": -111.831388888,
+    "latitude": 33.415
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q23556",
+    "cityLabel": "Atlanta",
+    "population": 498715,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Atlanta%20Montage%202.jpg",
+    "location": "Point(-84.389722222 33.754444444)",
+    "local_location": "40.jpg",
+    "longitude": -84.389722222,
+    "latitude": 33.754444444
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q18432",
+    "cityLabel": "Staten Island",
+    "population": 495747,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/USS%20Leyte%20Gulf%20%28CG%2055%29%20under%20the%20Verrazano%20Narrows%20Bridge.jpg",
+    "location": "Point(-74.146944444 40.571944444)",
+    "local_location": "41.jpg",
+    "longitude": -74.146944444,
+    "latitude": 40.571944444
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q43199",
+    "cityLabel": "Omaha",
+    "population": 486051,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Heartland%20of%20America%20Park%2C%20Omaha%2C%20Nebraska.jpg",
+    "location": "Point(-95.9375 41.258611111)",
+    "local_location": "42.jpg",
+    "longitude": -95.9375,
+    "latitude": 41.258611111
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49258",
+    "cityLabel": "Colorado Springs",
+    "population": 478961,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CC%20COSPRINGS.jpg",
+    "location": "Point(-104.791944444 38.863333333)",
+    "local_location": "43.jpg",
+    "longitude": -104.791944444,
+    "latitude": 38.863333333
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q41087",
+    "cityLabel": "Raleigh",
+    "population": 467665,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Downtown-Raleigh-from-Western-Boulevard-Overpass-20081012.jpeg",
+    "location": "Point(-78.64 35.78)",
+    "local_location": "44.jpeg",
+    "longitude": -78.64,
+    "latitude": 35.78
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q16739",
+    "cityLabel": "Long Beach",
+    "population": 466742,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Long%20Beach%2006.jpg",
+    "location": "Point(-118.195555555 33.768055555)",
+    "local_location": "45.jpg",
+    "longitude": -118.195555555,
+    "latitude": 33.768055555
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49259",
+    "cityLabel": "Virginia Beach",
+    "population": 459470,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Virginia%20Beach%20from%20Fishing%20Pier.jpg",
+    "location": "Point(-75.9779 36.8506)",
+    "local_location": "46.jpg",
+    "longitude": -75.9779,
+    "latitude": 36.8506
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q8652",
+    "cityLabel": "Miami",
+    "population": 442241,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Downtown%20Miami%20aerial%202008.jpg",
+    "location": "Point(-80.216666666 25.783333333)",
+    "local_location": "47.jpg",
+    "longitude": -80.216666666,
+    "latitude": 25.783333333
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q17042",
+    "cityLabel": "Oakland",
+    "population": 440646,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/OAKLAND%2C%20CA%2C%20USA%20-%20Skyline%20and%20Bridge.JPG",
+    "location": "Point(-122.25 37.8)",
+    "local_location": "48.jpg",
+    "longitude": -122.25,
+    "latitude": 37.8
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q36091",
+    "cityLabel": "Minneapolis",
+    "population": 429954,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2008-0712-MPLS-panorama.JPG",
+    "location": "Point(-93.269166666 44.981944444)",
+    "local_location": "49.jpg",
+    "longitude": -93.269166666,
+    "latitude": 44.981944444
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q44989",
+    "cityLabel": "Tulsa",
+    "population": 413066,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tulsa%20Skyline.jpg",
+    "location": "Point(-95.937222222 36.131388888)",
+    "local_location": "50.jpg",
+    "longitude": -95.937222222,
+    "latitude": 36.131388888
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49256",
+    "cityLabel": "Bakersfield",
+    "population": 403455,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BakersfieldSkyline.jpg",
+    "location": "Point(-119.018888888 35.373333333)",
+    "local_location": "51.jpg",
+    "longitude": -119.018888888,
+    "latitude": 35.373333333
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49266",
+    "cityLabel": "Wichita",
+    "population": 397532,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wichita%20Aerial%20Facing%20North%20II%20%2850902494607%29.jpg",
+    "location": "Point(-97.336111111 37.688888888)",
+    "local_location": "52.jpg",
+    "longitude": -97.336111111,
+    "latitude": 37.688888888
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q17943",
+    "cityLabel": "Arlington",
+    "population": 394266,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Texas%20at%20Arlington%20March%202021%20039%20%28Arlington%20Hall%29.jpg",
+    "location": "Point(-97.122839 32.705033)",
+    "local_location": "53.jpg",
+    "longitude": -97.122839,
+    "latitude": 32.705033
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49246",
+    "cityLabel": "Aurora",
+    "population": 386261,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aurora%20Municipal%20Center.JPG",
+    "location": "Point(-104.8125 39.710833333)",
+    "local_location": "54.jpg",
+    "longitude": -104.8125,
+    "latitude": 39.710833333
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49255",
+    "cityLabel": "Tampa",
+    "population": 384959,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/City%20of%20Tampa%20montage.jpg",
+    "location": "Point(-82.458611111 27.9475)",
+    "local_location": "55.jpg",
+    "longitude": -82.458611111,
+    "latitude": 27.9475
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q34404",
+    "cityLabel": "New Orleans",
+    "population": 383997,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/New%20Orleans%20skyline-02.jpg",
+    "location": "Point(-90.078333333 29.976111111)",
+    "local_location": "56.jpg",
+    "longitude": -90.078333333,
+    "latitude": 29.976111111
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q37320",
+    "cityLabel": "Cleveland",
+    "population": 372624,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cleveland%20skyline%20from%20Edgewater%20Park%2C%20May%202025.jpg",
+    "location": "Point(-81.694722222 41.499166666)",
+    "local_location": "57.jpg",
+    "longitude": -81.694722222,
+    "latitude": 41.499166666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q18094",
+    "cityLabel": "Honolulu",
+    "population": 350964,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Waikiki%20view%20from%20Diamond%20Head.JPG",
+    "location": "Point(-157.857222222 21.304722222)",
+    "local_location": "58.jpg",
+    "longitude": -157.857222222,
+    "latitude": 21.304722222
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49247",
+    "cityLabel": "Anaheim",
+    "population": 346824,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Anaheimcityhall.jpg",
+    "location": "Point(-117.889722222 33.836111111)",
+    "local_location": "59.jpg",
+    "longitude": -117.889722222,
+    "latitude": 33.836111111
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49241",
+    "cityLabel": "Lexington",
+    "population": 322570,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/LexingtonDowntown.JPG",
+    "location": "Point(-84.458611111 38.049722222)",
+    "local_location": "60.jpg",
+    "longitude": -84.458611111,
+    "latitude": 38.049722222
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49240",
+    "cityLabel": "Stockton",
+    "population": 320804,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Downtown%20Stockton%20California.jpg",
+    "location": "Point(-121.2925 37.9575)",
+    "local_location": "61.jpg",
+    "longitude": -121.2925,
+    "latitude": 37.9575
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49242",
+    "cityLabel": "Corpus Christi",
+    "population": 317863,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Corpus%20Christi%20skyline.jpg",
+    "location": "Point(-97.401944444 27.742777777)",
+    "local_location": "62.jpg",
+    "longitude": -97.401944444,
+    "latitude": 27.742777777
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49267",
+    "cityLabel": "Henderson",
+    "population": 317610,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/HendersonMontage.jpg",
+    "location": "Point(-114.981388888 36.031666666)",
+    "local_location": "63.jpg",
+    "longitude": -114.981388888,
+    "latitude": 36.031666666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49243",
+    "cityLabel": "Riverside",
+    "population": 314998,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Riversidehomes.JPG",
+    "location": "Point(-117.3725 33.982222222)",
+    "local_location": "64.jpg",
+    "longitude": -117.3725,
+    "latitude": 33.982222222
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q25395",
+    "cityLabel": "Newark",
+    "population": 311549,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Newark%2C%20New%20Jersey%20at%20night.jpg",
+    "location": "Point(-74.172222222 40.735555555)",
+    "local_location": "65.jpg",
+    "longitude": -74.172222222,
+    "latitude": 40.735555555
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q28848",
+    "cityLabel": "Saint Paul",
+    "population": 311527,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Saint%20paul%20mn.jpg",
+    "location": "Point(-93.093611111 44.944166666)",
+    "local_location": "66.jpg",
+    "longitude": -93.093611111,
+    "latitude": 44.944166666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49244",
+    "cityLabel": "Santa Ana",
+    "population": 310227,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SantaAnaCollage.jpg",
+    "location": "Point(-117.881388888 33.740833333)",
+    "local_location": "67.jpg",
+    "longitude": -117.881388888,
+    "latitude": 33.740833333
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q43196",
+    "cityLabel": "Cincinnati",
+    "population": 309317,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cincinnati%20Skyline%20from%20Devou%20Park.jpg",
+    "location": "Point(-84.5125 39.1)",
+    "local_location": "68.jpg",
+    "longitude": -84.5125,
+    "latitude": 39.1
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49219",
+    "cityLabel": "Irvine",
+    "population": 307670,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Irvine%20Spectrum.jpg",
+    "location": "Point(-117.7925 33.684166666)",
+    "local_location": "69.jpg",
+    "longitude": -117.7925,
+    "latitude": 33.684166666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49233",
+    "cityLabel": "Orlando",
+    "population": 307573,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Skyline%20of%20Orlando%2C%209%20Feb%202017.jpg",
+    "location": "Point(-81.386666666 28.533611111)",
+    "local_location": "70.jpg",
+    "longitude": -81.386666666,
+    "latitude": 28.533611111
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q1342",
+    "cityLabel": "Pittsburgh",
+    "population": 302971,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Duquesne%20Incline%20%2850076338942%29%20%28cropped%29.jpg",
+    "location": "Point(-80.0 40.441666666)",
+    "local_location": "71.jpg",
+    "longitude": -80.0,
+    "latitude": 40.441666666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q38022",
+    "cityLabel": "St. Louis",
+    "population": 301578,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gateway%20Arch%20-%20St.%20Louis%20-%20Missouri%20%2817275578342%29.jpg",
+    "location": "Point(-90.199444444 38.626388888)",
+    "local_location": "72.jpg",
+    "longitude": -90.199444444,
+    "latitude": 38.626388888
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49238",
+    "cityLabel": "Greensboro",
+    "population": 299035,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Greensboro%20Skyline.jpg",
+    "location": "Point(-79.819444444 36.08)",
+    "local_location": "73.jpg",
+    "longitude": -79.819444444,
+    "latitude": 36.08
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q26339",
+    "cityLabel": "Jersey City",
+    "population": 292449,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jersey%20City%20from%20a%20helicopter.jpg",
+    "location": "Point(-74.06 40.71)",
+    "local_location": "74.jpg",
+    "longitude": -74.06,
+    "latitude": 40.71
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q39450",
+    "cityLabel": "Anchorage",
+    "population": 291247,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Anchorage%20on%20an%20April%20evening.jpg",
+    "location": "Point(-149.893611111 61.216666666)",
+    "local_location": "75.jpg",
+    "longitude": -149.893611111,
+    "latitude": 61.216666666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q28260",
+    "cityLabel": "Lincoln",
+    "population": 291082,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Skyline%20of%20Downtown%20Lincoln%2C%20Nebraska%2C%20USA%20%282023%29.jpg",
+    "location": "Point(-96.678055555 40.809166666)",
+    "local_location": "76.jpg",
+    "longitude": -96.678055555,
+    "latitude": 40.809166666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q51689",
+    "cityLabel": "Plano",
+    "population": 285494,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Skyline%20of%20Plano%20Texas.jpg",
+    "location": "Point(-96.75 33.05)",
+    "local_location": "77.jpg",
+    "longitude": -96.75,
+    "latitude": 33.05
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49229",
+    "cityLabel": "Durham",
+    "population": 283506,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2008-07-05%20Durham%20County%20Courthouse.jpg",
+    "location": "Point(-78.898611111 35.994166666)",
+    "local_location": "78.jpg",
+    "longitude": -78.898611111,
+    "latitude": 35.994166666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q40435",
+    "cityLabel": "Buffalo",
+    "population": 278349,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BuffaloMontage1.jpg",
+    "location": "Point(-78.878055555 42.886388888)",
+    "local_location": "79.jpg",
+    "longitude": -78.878055555,
+    "latitude": 42.886388888
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49272",
+    "cityLabel": "Chandler",
+    "population": 275987,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chandler%20AZ%20downtown.jpg",
+    "location": "Point(-111.841388888 33.303333333)",
+    "local_location": "80.jpg",
+    "longitude": -111.841388888,
+    "latitude": 33.303333333
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49270",
+    "cityLabel": "Chula Vista",
+    "population": 275487,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gateway%20Buildings%2C%20Chula%20Vista.jpg",
+    "location": "Point(-117.048055555 32.627777777)",
+    "local_location": "81.jpg",
+    "longitude": -117.048055555,
+    "latitude": 32.627777777
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49239",
+    "cityLabel": "Toledo",
+    "population": 270871,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fifth%20Third%20Field%20in%20Toledo.jpeg",
+    "location": "Point(-83.537777777 41.652777777)",
+    "local_location": "82.jpeg",
+    "longitude": -83.537777777,
+    "latitude": 41.652777777
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q43788",
+    "cityLabel": "Madison",
+    "population": 269840,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20View%20of%20Campus%2C%20with%20Helen%20C.%20White%20Hall%20in%20foreground%20%2814070186173%29.jpg",
+    "location": "Point(-89.384166666 43.074722222)",
+    "local_location": "83.jpg",
+    "longitude": -89.384166666,
+    "latitude": 43.074722222
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49225",
+    "cityLabel": "Reno",
+    "population": 264165,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Reno%2C%20Nevada%20photo%20D%20Ramey%20Logan.jpg",
+    "location": "Point(-119.812666666 39.526111111)",
+    "local_location": "84.jpg",
+    "longitude": -119.812666666,
+    "latitude": 39.526111111
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49268",
+    "cityLabel": "Fort Wayne",
+    "population": 263886,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Downtown%20Fort%20Wayne%2C%20Indiana%20Skyline%20from%20Old%20Fort%2C%20May%202014.jpg",
+    "location": "Point(-85.13915 41.08045)",
+    "local_location": "85.jpg",
+    "longitude": -85.13915,
+    "latitude": 41.08045
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q143782",
+    "cityLabel": "North Las Vegas",
+    "population": 262527,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Texas%20Station%20entrance.jpg",
+    "location": "Point(-115.121583333 36.200583333)",
+    "local_location": "86.jpg",
+    "longitude": -115.121583333,
+    "latitude": 36.200583333
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49236",
+    "cityLabel": "St. Petersburg",
+    "population": 258308,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Skyline%20StPetersburgFL.jpg",
+    "location": "Point(-82.64 27.773055555)",
+    "local_location": "87.jpg",
+    "longitude": -82.64,
+    "latitude": 27.773055555
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49273",
+    "cityLabel": "Lubbock",
+    "population": 257141,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/LubbockSkyline2013.jpg",
+    "location": "Point(-101.845 33.585)",
+    "local_location": "88.jpg",
+    "longitude": -101.845,
+    "latitude": 33.585
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q51690",
+    "cityLabel": "Irving",
+    "population": 256684,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20the%20%22Mustangs%20of%20Las%20Colinas%22%20sculpture%20in%20the%20upscale%20Las%20Colinas%20neighborhood%20of%20Irving%2C%20Texas%20LCCN2015630710.jpg",
+    "location": "Point(-96.950833333 32.811666666)",
+    "local_location": "89.jpg",
+    "longitude": -96.950833333,
+    "latitude": 32.811666666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q16868",
+    "cityLabel": "Laredo",
+    "population": 255205,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Laredo%20Public%20Library%20II.jpg",
+    "location": "Point(-99.507222222 27.506111111)",
+    "local_location": "90.jpg",
+    "longitude": -99.507222222,
+    "latitude": 27.506111111
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49227",
+    "cityLabel": "Winston-Salem",
+    "population": 249545,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Winston-Salem%20Skyline2.jpg",
+    "location": "Point(-80.260555555 36.1025)",
+    "local_location": "91.jpg",
+    "longitude": -80.260555555,
+    "latitude": 36.1025
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49222",
+    "cityLabel": "Chesapeake",
+    "population": 249422,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chesapeake%20municipal%20center.jpg",
+    "location": "Point(-76.287405 36.767398)",
+    "local_location": "92.jpg",
+    "longitude": -76.287405,
+    "latitude": 36.767398
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q51682",
+    "cityLabel": "Glendale",
+    "population": 248325,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Glendale-Downtown%20Glendale.jpg",
+    "location": "Point(-112.2 33.583333333)",
+    "local_location": "93.jpg",
+    "longitude": -112.2,
+    "latitude": 33.583333333
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q43668",
+    "cityLabel": "Louisville",
+    "population": 246161,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Louisville%20montage.jpg",
+    "location": "Point(-85.751388888 38.256111111)",
+    "local_location": "94.jpg",
+    "longitude": -85.751388888,
+    "latitude": 38.256111111
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49274",
+    "cityLabel": "Garland",
+    "population": 246018,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Collage%20of%20Photos%20of%20Garland%2C%20TX.jpg",
+    "location": "Point(-96.635 32.906666666)",
+    "local_location": "95.jpg",
+    "longitude": -96.635,
+    "latitude": 32.906666666
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49221",
+    "cityLabel": "Scottsdale",
+    "population": 241361,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Scottsdale%20waterfront.jpg",
+    "location": "Point(-111.926111111 33.493055555)",
+    "local_location": "96.jpg",
+    "longitude": -111.926111111,
+    "latitude": 33.493055555
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49279759",
+    "cityLabel": "Arlington",
+    "population": 238643,
+    "image": "",
+    "location": "Point(-77.10096 38.87862)",
+    "local_location": "97.jpg",
+    "longitude": -77.10096,
+    "latitude": 38.87862
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49231",
+    "cityLabel": "Norfolk",
+    "population": 238005,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MontageNorfolkVAUSA.jpg",
+    "location": "Point(-76.285277777 36.846944444)",
+    "local_location": "98.jpg",
+    "longitude": -76.285277777,
+    "latitude": 36.846944444
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q35775",
+    "cityLabel": "Boise",
+    "population": 235684,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Boise%20Metro%20Chamber%20of%20Commerce%20photo%20to%20share%20-%20winter%202017.jpg",
+    "location": "Point(-116.237777777 43.613611111)",
+    "local_location": "99.jpg",
+    "longitude": -116.237777777,
+    "latitude": 43.613611111
+  },
+  {
+    "city": "http://www.wikidata.org/entity/Q49220",
+    "cityLabel": "Fremont",
+    "population": 230504,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mission-Peak-2006.jpg",
+    "location": "Point(-121.988333333 37.548611111)",
+    "local_location": "100.jpg",
+    "longitude": -121.988333333,
+    "latitude": 37.548611111
+  }
+]
