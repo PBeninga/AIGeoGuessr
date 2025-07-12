@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Pin Dropper</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Leaflet.VectorGrid plugin -->
+    <script src="https://unpkg.com/leaflet.vectorgrid/dist/Leaflet.VectorGrid.bundled.js"></script>
+    <!-- Local fallback (optional) -->
+    <script>if(typeof window.L === 'undefined' || typeof window.L.vectorGrid === 'undefined') {document.write('<script src="leaflet.vectorgrid.min.js"><\/script>');}</script>
+</head>
+<body>
+    <img src="logo.png" alt="Floating Logo" class="floating-logo">
+    <div id="map"></div>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

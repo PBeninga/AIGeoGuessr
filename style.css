@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.floating-logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    z-index: 1000;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    background: white;
+    padding: 6px;
+}
+
+#map {
+    height: 100vh;
+    width: 100vw;
+}
