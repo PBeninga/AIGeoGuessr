@@ -32,8 +32,8 @@ function haversineMiles(lat1, lng1, lat2, lng2) {
 }
 
 window.onload = function() {
-    // Centered on San Francisco by default
-    map = L.map('map').setView([37.7749, -122.4194], 12);
+    // Centered on the US by default
+    map = L.map('map').setView([39.8, -98.57], 4);
     // Load cities JSON file
     fetch('cities.json')
         .then(response => response.json())
